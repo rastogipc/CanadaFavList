@@ -16,6 +16,7 @@
 		0B0A25BD23D8CAE9006F02DC /* CanadaFavListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25BC23D8CAE9006F02DC /* CanadaFavListTests.swift */; };
 		0B0A25C823D8CAE9006F02DC /* CanadaFavListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25C723D8CAE9006F02DC /* CanadaFavListUITests.swift */; };
 		0B0A25D723D8CBDE006F02DC /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25D623D8CBDE006F02DC /* NetworkHandler.swift */; };
+		0B0A25DA23D8CF7B006F02DC /* ListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25D923D8CF7B006F02DC /* ListDataModel.swift */; };
 		9C92871CDC4C8380AD360DF8 /* Pods_CanadaFavList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEFE4DF0DA84224DEFCE6C5 /* Pods_CanadaFavList.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		0B0A25C723D8CAE9006F02DC /* CanadaFavListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaFavListUITests.swift; sourceTree = "<group>"; };
 		0B0A25C923D8CAE9006F02DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B0A25D623D8CBDE006F02DC /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		0B0A25D923D8CF7B006F02DC /* ListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataModel.swift; sourceTree = "<group>"; };
 		8695146CDEC130C372CC101C /* Pods-CanadaFavList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaFavList.release.xcconfig"; path = "Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList.release.xcconfig"; sourceTree = "<group>"; };
 		9FEFE4DF0DA84224DEFCE6C5 /* Pods_CanadaFavList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanadaFavList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DDC06B0F3D02DDF3766B93 /* Pods-CanadaFavList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaFavList.debug.xcconfig"; path = "Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				0B0A25AB23D8CAE9006F02DC /* Assets.xcassets */,
 				0B0A25B023D8CAE9006F02DC /* LaunchScreen.storyboard */,
 				0B0A25B323D8CAE9006F02DC /* Info.plist */,
+				0B0A25D823D8CF23006F02DC /* DataModel */,
 				0B0A25D523D8CBAB006F02DC /* NetworkManager */,
 				0B0A25AD23D8CAE9006F02DC /* Preview Content */,
 			);
@@ -152,6 +155,14 @@
 				0B0A25D623D8CBDE006F02DC /* NetworkHandler.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		0B0A25D823D8CF23006F02DC /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A25D923D8CF7B006F02DC /* ListDataModel.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 		AA598508B4972BDB1EE2058A /* Frameworks */ = {
@@ -349,6 +360,7 @@
 				0B0A25A623D8CAE7006F02DC /* AppDelegate.swift in Sources */,
 				0B0A25A823D8CAE7006F02DC /* SceneDelegate.swift in Sources */,
 				0B0A25AA23D8CAE7006F02DC /* ContentView.swift in Sources */,
+				0B0A25DA23D8CF7B006F02DC /* ListDataModel.swift in Sources */,
 				0B0A25D723D8CBDE006F02DC /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
