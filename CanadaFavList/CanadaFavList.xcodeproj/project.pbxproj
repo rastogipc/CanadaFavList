@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0A25A623D8CAE7006F02DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25A523D8CAE7006F02DC /* AppDelegate.swift */; };
+		0B0A25A823D8CAE7006F02DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25A723D8CAE7006F02DC /* SceneDelegate.swift */; };
+		0B0A25AA23D8CAE7006F02DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25A923D8CAE7006F02DC /* ContentView.swift */; };
+		0B0A25AC23D8CAE9006F02DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A25AB23D8CAE9006F02DC /* Assets.xcassets */; };
+		0B0A25AF23D8CAE9006F02DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A25AE23D8CAE9006F02DC /* Preview Assets.xcassets */; };
+		0B0A25B223D8CAE9006F02DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A25B023D8CAE9006F02DC /* LaunchScreen.storyboard */; };
+		0B0A25BD23D8CAE9006F02DC /* CanadaFavListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25BC23D8CAE9006F02DC /* CanadaFavListTests.swift */; };
+		0B0A25C823D8CAE9006F02DC /* CanadaFavListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25C723D8CAE9006F02DC /* CanadaFavListUITests.swift */; };
+		0B0A25D723D8CBDE006F02DC /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25D623D8CBDE006F02DC /* NetworkHandler.swift */; };
+		9C92871CDC4C8380AD360DF8 /* Pods_CanadaFavList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEFE4DF0DA84224DEFCE6C5 /* Pods_CanadaFavList.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B0A25B923D8CAE9006F02DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B0A259A23D8CAE7006F02DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0A25A123D8CAE7006F02DC;
+			remoteInfo = CanadaFavList;
+		};
+		0B0A25C423D8CAE9006F02DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B0A259A23D8CAE7006F02DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0A25A123D8CAE7006F02DC;
+			remoteInfo = CanadaFavList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0A25A223D8CAE7006F02DC /* CanadaFavList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanadaFavList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0A25A523D8CAE7006F02DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B0A25A723D8CAE7006F02DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B0A25A923D8CAE7006F02DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B0A25AB23D8CAE9006F02DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B0A25AE23D8CAE9006F02DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B0A25B123D8CAE9006F02DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B0A25B323D8CAE9006F02DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0A25B823D8CAE9006F02DC /* CanadaFavListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanadaFavListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0A25BC23D8CAE9006F02DC /* CanadaFavListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaFavListTests.swift; sourceTree = "<group>"; };
+		0B0A25BE23D8CAE9006F02DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0A25C323D8CAE9006F02DC /* CanadaFavListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanadaFavListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0A25C723D8CAE9006F02DC /* CanadaFavListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaFavListUITests.swift; sourceTree = "<group>"; };
+		0B0A25C923D8CAE9006F02DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0A25D623D8CBDE006F02DC /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		8695146CDEC130C372CC101C /* Pods-CanadaFavList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaFavList.release.xcconfig"; path = "Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList.release.xcconfig"; sourceTree = "<group>"; };
+		9FEFE4DF0DA84224DEFCE6C5 /* Pods_CanadaFavList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanadaFavList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DDC06B0F3D02DDF3766B93 /* Pods-CanadaFavList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaFavList.debug.xcconfig"; path = "Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0A259F23D8CAE7006F02DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C92871CDC4C8380AD360DF8 /* Pods_CanadaFavList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0A25B523D8CAE9006F02DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0A25C023D8CAE9006F02DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0A259923D8CAE7006F02DC = {
+			isa = PBXGroup;
+			children = (
+				0B0A25A423D8CAE7006F02DC /* CanadaFavList */,
+				0B0A25BB23D8CAE9006F02DC /* CanadaFavListTests */,
+				0B0A25C623D8CAE9006F02DC /* CanadaFavListUITests */,
+				0B0A25A323D8CAE7006F02DC /* Products */,
+				AE7B83254C408BF0D2251583 /* Pods */,
+				AA598508B4972BDB1EE2058A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B0A25A323D8CAE7006F02DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A25A223D8CAE7006F02DC /* CanadaFavList.app */,
+				0B0A25B823D8CAE9006F02DC /* CanadaFavListTests.xctest */,
+				0B0A25C323D8CAE9006F02DC /* CanadaFavListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B0A25A423D8CAE7006F02DC /* CanadaFavList */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A25A523D8CAE7006F02DC /* AppDelegate.swift */,
+				0B0A25A723D8CAE7006F02DC /* SceneDelegate.swift */,
+				0B0A25A923D8CAE7006F02DC /* ContentView.swift */,
+				0B0A25AB23D8CAE9006F02DC /* Assets.xcassets */,
+				0B0A25B023D8CAE9006F02DC /* LaunchScreen.storyboard */,
+				0B0A25B323D8CAE9006F02DC /* Info.plist */,
+				0B0A25D523D8CBAB006F02DC /* NetworkManager */,
+				0B0A25AD23D8CAE9006F02DC /* Preview Content */,
+			);
+			path = CanadaFavList;
+			sourceTree = "<group>";
+		};
+		0B0A25AD23D8CAE9006F02DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A25AE23D8CAE9006F02DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B0A25BB23D8CAE9006F02DC /* CanadaFavListTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A25BC23D8CAE9006F02DC /* CanadaFavListTests.swift */,
+				0B0A25BE23D8CAE9006F02DC /* Info.plist */,
+			);
+			path = CanadaFavListTests;
+			sourceTree = "<group>";
+		};
+		0B0A25C623D8CAE9006F02DC /* CanadaFavListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A25C723D8CAE9006F02DC /* CanadaFavListUITests.swift */,
+				0B0A25C923D8CAE9006F02DC /* Info.plist */,
+			);
+			path = CanadaFavListUITests;
+			sourceTree = "<group>";
+		};
+		0B0A25D523D8CBAB006F02DC /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A25D623D8CBDE006F02DC /* NetworkHandler.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		AA598508B4972BDB1EE2058A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FEFE4DF0DA84224DEFCE6C5 /* Pods_CanadaFavList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE7B83254C408BF0D2251583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DDC06B0F3D02DDF3766B93 /* Pods-CanadaFavList.debug.xcconfig */,
+				8695146CDEC130C372CC101C /* Pods-CanadaFavList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B0A25A123D8CAE7006F02DC /* CanadaFavList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0A25CC23D8CAE9006F02DC /* Build configuration list for PBXNativeTarget "CanadaFavList" */;
+			buildPhases = (
+				051036EA61DEEDB14086520F /* [CP] Check Pods Manifest.lock */,
+				0B0A259E23D8CAE7006F02DC /* Sources */,
+				0B0A259F23D8CAE7006F02DC /* Frameworks */,
+				0B0A25A023D8CAE7006F02DC /* Resources */,
+				D7920C470EF6A6A03C3A49E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanadaFavList;
+			productName = CanadaFavList;
+			productReference = 0B0A25A223D8CAE7006F02DC /* CanadaFavList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B0A25B723D8CAE9006F02DC /* CanadaFavListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0A25CF23D8CAE9006F02DC /* Build configuration list for PBXNativeTarget "CanadaFavListTests" */;
+			buildPhases = (
+				0B0A25B423D8CAE9006F02DC /* Sources */,
+				0B0A25B523D8CAE9006F02DC /* Frameworks */,
+				0B0A25B623D8CAE9006F02DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B0A25BA23D8CAE9006F02DC /* PBXTargetDependency */,
+			);
+			name = CanadaFavListTests;
+			productName = CanadaFavListTests;
+			productReference = 0B0A25B823D8CAE9006F02DC /* CanadaFavListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B0A25C223D8CAE9006F02DC /* CanadaFavListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0A25D223D8CAE9006F02DC /* Build configuration list for PBXNativeTarget "CanadaFavListUITests" */;
+			buildPhases = (
+				0B0A25BF23D8CAE9006F02DC /* Sources */,
+				0B0A25C023D8CAE9006F02DC /* Frameworks */,
+				0B0A25C123D8CAE9006F02DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B0A25C523D8CAE9006F02DC /* PBXTargetDependency */,
+			);
+			name = CanadaFavListUITests;
+			productName = CanadaFavListUITests;
+			productReference = 0B0A25C323D8CAE9006F02DC /* CanadaFavListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B0A259A23D8CAE7006F02DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Prakash Rastogi";
+				TargetAttributes = {
+					0B0A25A123D8CAE7006F02DC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					0B0A25B723D8CAE9006F02DC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 0B0A25A123D8CAE7006F02DC;
+					};
+					0B0A25C223D8CAE9006F02DC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 0B0A25A123D8CAE7006F02DC;
+					};
+				};
+			};
+			buildConfigurationList = 0B0A259D23D8CAE7006F02DC /* Build configuration list for PBXProject "CanadaFavList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B0A259923D8CAE7006F02DC;
+			productRefGroup = 0B0A25A323D8CAE7006F02DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B0A25A123D8CAE7006F02DC /* CanadaFavList */,
+				0B0A25B723D8CAE9006F02DC /* CanadaFavListTests */,
+				0B0A25C223D8CAE9006F02DC /* CanadaFavListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B0A25A023D8CAE7006F02DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0A25B223D8CAE9006F02DC /* LaunchScreen.storyboard in Resources */,
+				0B0A25AF23D8CAE9006F02DC /* Preview Assets.xcassets in Resources */,
+				0B0A25AC23D8CAE9006F02DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0A25B623D8CAE9006F02DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0A25C123D8CAE9006F02DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051036EA61DEEDB14086520F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanadaFavList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7920C470EF6A6A03C3A49E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B0A259E23D8CAE7006F02DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0A25A623D8CAE7006F02DC /* AppDelegate.swift in Sources */,
+				0B0A25A823D8CAE7006F02DC /* SceneDelegate.swift in Sources */,
+				0B0A25AA23D8CAE7006F02DC /* ContentView.swift in Sources */,
+				0B0A25D723D8CBDE006F02DC /* NetworkHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0A25B423D8CAE9006F02DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0A25BD23D8CAE9006F02DC /* CanadaFavListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0A25BF23D8CAE9006F02DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0A25C823D8CAE9006F02DC /* CanadaFavListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B0A25BA23D8CAE9006F02DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0A25A123D8CAE7006F02DC /* CanadaFavList */;
+			targetProxy = 0B0A25B923D8CAE9006F02DC /* PBXContainerItemProxy */;
+		};
+		0B0A25C523D8CAE9006F02DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0A25A123D8CAE7006F02DC /* CanadaFavList */;
+			targetProxy = 0B0A25C423D8CAE9006F02DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B0A25B023D8CAE9006F02DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0A25B123D8CAE9006F02DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B0A25CA23D8CAE9006F02DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B0A25CB23D8CAE9006F02DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B0A25CD23D8CAE9006F02DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DDC06B0F3D02DDF3766B93 /* Pods-CanadaFavList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CanadaFavList/Preview Content\"";
+				DEVELOPMENT_TEAM = WUVJTJ6VQE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CanadaFavList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CanadaFavList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B0A25CE23D8CAE9006F02DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8695146CDEC130C372CC101C /* Pods-CanadaFavList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CanadaFavList/Preview Content\"";
+				DEVELOPMENT_TEAM = WUVJTJ6VQE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CanadaFavList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CanadaFavList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B0A25D023D8CAE9006F02DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUVJTJ6VQE;
+				INFOPLIST_FILE = CanadaFavListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CanadaFavListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanadaFavList.app/CanadaFavList";
+			};
+			name = Debug;
+		};
+		0B0A25D123D8CAE9006F02DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUVJTJ6VQE;
+				INFOPLIST_FILE = CanadaFavListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CanadaFavListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanadaFavList.app/CanadaFavList";
+			};
+			name = Release;
+		};
+		0B0A25D323D8CAE9006F02DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUVJTJ6VQE;
+				INFOPLIST_FILE = CanadaFavListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CanadaFavListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CanadaFavList;
+			};
+			name = Debug;
+		};
+		0B0A25D423D8CAE9006F02DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUVJTJ6VQE;
+				INFOPLIST_FILE = CanadaFavListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CanadaFavListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CanadaFavList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B0A259D23D8CAE7006F02DC /* Build configuration list for PBXProject "CanadaFavList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0A25CA23D8CAE9006F02DC /* Debug */,
+				0B0A25CB23D8CAE9006F02DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0A25CC23D8CAE9006F02DC /* Build configuration list for PBXNativeTarget "CanadaFavList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0A25CD23D8CAE9006F02DC /* Debug */,
+				0B0A25CE23D8CAE9006F02DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0A25CF23D8CAE9006F02DC /* Build configuration list for PBXNativeTarget "CanadaFavListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0A25D023D8CAE9006F02DC /* Debug */,
+				0B0A25D123D8CAE9006F02DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0A25D223D8CAE9006F02DC /* Build configuration list for PBXNativeTarget "CanadaFavListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0A25D323D8CAE9006F02DC /* Debug */,
+				0B0A25D423D8CAE9006F02DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B0A259A23D8CAE7006F02DC /* Project object */;
+}
