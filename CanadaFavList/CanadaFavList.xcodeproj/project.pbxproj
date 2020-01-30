@@ -17,6 +17,13 @@
 		0B0A25C823D8CAE9006F02DC /* CanadaFavListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25C723D8CAE9006F02DC /* CanadaFavListUITests.swift */; };
 		0B0A25D723D8CBDE006F02DC /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25D623D8CBDE006F02DC /* NetworkHandler.swift */; };
 		0B0A25DA23D8CF7B006F02DC /* ListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25D923D8CF7B006F02DC /* ListDataModel.swift */; };
+		0B0A25DC23D8D09F006F02DC /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A25DB23D8D09F006F02DC /* AppConstant.swift */; };
+		0B1A38B623E3501E000A8104 /* canadaList.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 0B1A38B523E3501E000A8104 /* canadaList.geojson */; };
+		0B1A38B823E35064000A8104 /* canadaPlaceList.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B1A38B723E35064000A8104 /* canadaPlaceList.json */; };
+		0B78D32F23DEF594008F1C3B /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78D32E23DEF594008F1C3B /* ListCell.swift */; };
+		0B78D33323DF23FD008F1C3B /* ListTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78D33223DF23FD008F1C3B /* ListTable.swift */; };
+		0B78D33523DF29C6008F1C3B /* SelCellDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78D33423DF29C6008F1C3B /* SelCellDetail.swift */; };
+		0B78D33923DF58EF008F1C3B /* SwiftyHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78D33823DF58EF008F1C3B /* SwiftyHUDView.swift */; };
 		9C92871CDC4C8380AD360DF8 /* Pods_CanadaFavList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEFE4DF0DA84224DEFCE6C5 /* Pods_CanadaFavList.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +61,13 @@
 		0B0A25C923D8CAE9006F02DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B0A25D623D8CBDE006F02DC /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 		0B0A25D923D8CF7B006F02DC /* ListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataModel.swift; sourceTree = "<group>"; };
+		0B0A25DB23D8D09F006F02DC /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		0B1A38B523E3501E000A8104 /* canadaList.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = canadaList.geojson; sourceTree = "<group>"; };
+		0B1A38B723E35064000A8104 /* canadaPlaceList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = canadaPlaceList.json; sourceTree = "<group>"; };
+		0B78D32E23DEF594008F1C3B /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		0B78D33223DF23FD008F1C3B /* ListTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTable.swift; sourceTree = "<group>"; };
+		0B78D33423DF29C6008F1C3B /* SelCellDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelCellDetail.swift; sourceTree = "<group>"; };
+		0B78D33823DF58EF008F1C3B /* SwiftyHUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyHUDView.swift; sourceTree = "<group>"; };
 		8695146CDEC130C372CC101C /* Pods-CanadaFavList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaFavList.release.xcconfig"; path = "Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList.release.xcconfig"; sourceTree = "<group>"; };
 		9FEFE4DF0DA84224DEFCE6C5 /* Pods_CanadaFavList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanadaFavList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DDC06B0F3D02DDF3766B93 /* Pods-CanadaFavList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaFavList.debug.xcconfig"; path = "Target Support Files/Pods-CanadaFavList/Pods-CanadaFavList.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,12 +127,19 @@
 				0B0A25A523D8CAE7006F02DC /* AppDelegate.swift */,
 				0B0A25A723D8CAE7006F02DC /* SceneDelegate.swift */,
 				0B0A25A923D8CAE7006F02DC /* ContentView.swift */,
+				0B78D32E23DEF594008F1C3B /* ListCell.swift */,
+				0B78D33223DF23FD008F1C3B /* ListTable.swift */,
+				0B78D33423DF29C6008F1C3B /* SelCellDetail.swift */,
+				0B78D33823DF58EF008F1C3B /* SwiftyHUDView.swift */,
+				0B0A25DB23D8D09F006F02DC /* AppConstant.swift */,
 				0B0A25AB23D8CAE9006F02DC /* Assets.xcassets */,
 				0B0A25B023D8CAE9006F02DC /* LaunchScreen.storyboard */,
 				0B0A25B323D8CAE9006F02DC /* Info.plist */,
 				0B0A25D823D8CF23006F02DC /* DataModel */,
 				0B0A25D523D8CBAB006F02DC /* NetworkManager */,
 				0B0A25AD23D8CAE9006F02DC /* Preview Content */,
+				0B1A38B523E3501E000A8104 /* canadaList.geojson */,
+				0B1A38B723E35064000A8104 /* canadaPlaceList.json */,
 			);
 			path = CanadaFavList;
 			sourceTree = "<group>";
@@ -289,8 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0A25B223D8CAE9006F02DC /* LaunchScreen.storyboard in Resources */,
+				0B1A38B623E3501E000A8104 /* canadaList.geojson in Resources */,
 				0B0A25AF23D8CAE9006F02DC /* Preview Assets.xcassets in Resources */,
 				0B0A25AC23D8CAE9006F02DC /* Assets.xcassets in Resources */,
+				0B1A38B823E35064000A8104 /* canadaPlaceList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,8 +383,13 @@
 				0B0A25A623D8CAE7006F02DC /* AppDelegate.swift in Sources */,
 				0B0A25A823D8CAE7006F02DC /* SceneDelegate.swift in Sources */,
 				0B0A25AA23D8CAE7006F02DC /* ContentView.swift in Sources */,
+				0B78D32F23DEF594008F1C3B /* ListCell.swift in Sources */,
+				0B0A25DC23D8D09F006F02DC /* AppConstant.swift in Sources */,
+				0B78D33523DF29C6008F1C3B /* SelCellDetail.swift in Sources */,
 				0B0A25DA23D8CF7B006F02DC /* ListDataModel.swift in Sources */,
+				0B78D33323DF23FD008F1C3B /* ListTable.swift in Sources */,
 				0B0A25D723D8CBDE006F02DC /* NetworkHandler.swift in Sources */,
+				0B78D33923DF58EF008F1C3B /* SwiftyHUDView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,33 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ListTable: View {
+    
+    @ObservedObject var parseObj = ParseData()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        SwiftyHUDView(isShowing: .constant(self.parseObj.isLoading)) {
+            NavigationView {
+                List(self.parseObj.feedDataArray)
+                { cellObj in
+                    NavigationLink(destination: SelCellDetail(cellDataObj: cellObj)) {
+                        ListCell(cellDataObj: cellObj)
+                    }
+                }
+                .navigationBarTitle(Text(self.parseObj.feedTitle))
+            }
+        }
     }
 }
 
 struct ListTable_Previews: PreviewProvider {
     static var previews: some View {
-        ListTable()
+        ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
+            ListTable()
+            .previewDevice(PreviewDevice(rawValue: deviceName))
+            .previewDisplayName(deviceName)
+        }
     }
 }
